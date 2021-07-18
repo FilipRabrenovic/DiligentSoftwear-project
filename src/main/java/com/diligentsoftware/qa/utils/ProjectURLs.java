@@ -1,4 +1,4 @@
-package com.esagaming.qa.utils;
+package com.diligentsoftware.qa.utils;
 
 public class ProjectURLs {
 

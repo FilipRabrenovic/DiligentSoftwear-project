@@ -1,4 +1,4 @@
-package com.esagaming.qa.pages;
+package com.diligentsoftware.qa.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

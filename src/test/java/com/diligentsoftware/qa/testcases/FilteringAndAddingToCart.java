@@ -1,8 +1,8 @@
-package com.esagaming.qa.testcases;
+package com.diligentsoftware.qa.testcases;
 
-import com.esagaming.qa.core.DriverWrapper;
-import com.esagaming.qa.pages.HomePage;
-import com.esagaming.qa.utils.ProjectURLs;
+import com.diligentsoftware.qa.pages.HomePage;
+import com.diligentsoftware.qa.core.DriverWrapper;
+import com.diligentsoftware.qa.utils.ProjectURLs;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

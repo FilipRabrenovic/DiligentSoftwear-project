@@ -1,6 +1,6 @@
-package com.esagaming.qa.core;
+package com.diligentsoftware.qa.core;
 
-import com.esagaming.qa.utils.Paths;
+import com.diligentsoftware.qa.utils.Paths;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;

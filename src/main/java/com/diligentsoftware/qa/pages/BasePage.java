@@ -1,6 +1,6 @@
-package com.esagaming.qa.pages;
+package com.diligentsoftware.qa.pages;
 
-import com.esagaming.qa.utils.TimeUtils;
+import com.diligentsoftware.qa.utils.TimeUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
