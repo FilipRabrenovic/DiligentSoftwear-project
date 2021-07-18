@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 public class RegistrationPage extends BasePage{
 
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"join-neu-form\"]/div[1]/div/div[5]/div/button/text()")
+    @FindBy(how = How.XPATH, using = "//button[@name='submit_attempt']")
     private WebElement btn_continue;
 
     @FindBy(how = How.XPATH, using = "//*[@id=\"join_neu_email_field\"]")
@@ -20,7 +20,7 @@ public class RegistrationPage extends BasePage{
     @FindBy(how = How.XPATH, using = "//*[@id=\"join_neu_password_field\"]")
     private WebElement txt_password;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"join-neu-form\"]/div[2]/div/div[6]/div/button")
+    @FindBy(how = How.XPATH, using = "//button[@value='register']")
     private WebElement btn_register;
 
     public RegistrationPage(WebDriver driver) { super(driver); }

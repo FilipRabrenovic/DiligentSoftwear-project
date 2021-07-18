@@ -11,7 +11,7 @@ public class LogInPage extends BasePage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"join_neu_password_field\"]")
     private WebElement txt_password;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"join-neu-form\"]/div[2]/div/div[6]/div/button")
+    @FindBy(how = How.XPATH, using = "//button[@value='sign-in']")
     private WebElement btn_SignIn;
 
     protected LogInPage(WebDriver driver) { super(driver); }
