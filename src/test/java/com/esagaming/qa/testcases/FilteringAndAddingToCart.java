@@ -5,6 +5,7 @@ import com.esagaming.qa.pages.HomePage;
 import com.esagaming.qa.utils.ProjectURLs;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class FilteringAndAddingToCart {
 
@@ -17,6 +18,11 @@ public class FilteringAndAddingToCart {
         driver.manage().window().maximize();
         driver.get(ProjectURLs.BASE_URL);
         homePage = new HomePage(driver);
+    }
+
+    @Test
+    public void test() {
+
     }
 
 }
